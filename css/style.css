@@ -1,0 +1,109 @@
+.navbar-brand{
+	font-family: "Ubuntu",sans-serif;
+	font-size: 2rem;
+	font-weight: bold;
+	color: #fff;
+}
+.custom-nav .custom-nav-item a{
+	color: #ddd !important;
+}
+nav{
+	background-color: burlywood;
+}
+.custom-nav-item:hover{
+	background-color: #dc3545;
+	border: solid #dc3545 1px;
+	border-radius: 10px;
+}
+.remove-vid-marg{
+	margin: 0px;
+	padding: 0px;
+}
+.vid-parent {
+	position: relative;
+}
+video{
+	width:102.8%;
+	 height:100%;
+	 margin-left: -17px;
+}
+.vid-overlay{
+	position: absolute;
+	top: 0;
+	width:102.6%;
+	 height:99.0%;
+	 margin-left: -17px;
+	background-color: #225470;
+	opacity: 0.6;
+	z-index: 0.6;
+}
+.vid-content {
+    position: absolute;
+    z-index: 2;
+    left: 35%;
+    text-align: center;
+    top: 190px;
+    color: #fff;
+}
+.bottom-banner{
+	color: #fff;
+	padding: 10px;
+
+}
+.row.bottom-banner {
+  padding: 0px;
+  margin-top: -5px;
+}
+
+.stripe{
+	background-image: linear-gradient(240deg, #ed213a, #93291e);
+	padding: 10px;
+	height: 13rem;
+	margin-top: 4rem;
+	transform: rotate(10deg);
+	z-index: -5;
+
+}
+.carousel-item{
+	padding: 10px;
+	left: 10px;
+	width: 50px;
+	height: 200px;
+	border: 2px solid burlywood;
+
+}
+.carousel img{
+	justify-content: center;
+	align-items: center;
+	
+}
+.contflex{
+	display:flex;
+	padding-left:300px;
+}
+.flex{
+    display: block;
+    width: 200px;
+	padding: 5px;
+}
+@media screen and (min-width: 0px) and (max-width: 700px){
+	.my-content,
+	.txt-banner,
+	.stripe{
+		display: none;
+	}
+	.vid-content{
+		top:12%;
+		left: 60%;
+	}
+	.custom-nav .custom-nav-item a{
+		padding: 10px 20px;
+		background-color: #225470;
+	}
+	.custom-nav-item:hover{
+		background-color: none;
+		border: none;
+		border-radius: none;
+
+	}
+}
